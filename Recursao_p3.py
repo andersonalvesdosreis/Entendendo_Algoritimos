@@ -1,6 +1,9 @@
 #Parte Final do EXE. do CAP3
-chave = ''
-caixa = ''
+
+#Usando Abordagem com Recursão:
+
+chave = 'Somente Exemplo'
+caixa = 'Somente Exemplo'
 def analisar_caixa(caixas):
     if caixa in caixas:
         analisar_caixa(caixa)
